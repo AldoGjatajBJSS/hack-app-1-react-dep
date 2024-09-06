@@ -1,15 +1,17 @@
 header {
   position: relative;
   text-align: center;
-
-  color: white;
+  font-family: 'poppins';
+  color: black;
   height: 160px;
   overflow: hidden;
-  background-color: teal;
+  background-color: rgb(86, 192, 192);
   background-size: 100%;
 }
 
-.text-overlay {
+
+.text-overlay, h2 {
+  font-size: 70px;
   width: 80%;
   position: absolute;
   top: 50%;
